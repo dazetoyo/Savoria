@@ -1,0 +1,226 @@
+
+
+/* extra extra Large devices (desktops, less than 1200px) */
+@media (max-width: 1800px) {
+    /* header */
+    ul#menu-menu-2{
+        padding:250px 0 0 45% !important;
+    }
+
+    .max-500{
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .max-500{
+        max-width: 500px;
+    }
+}
+
+/* extra extra Large devices (desktops, less than 1200px) */
+@media (max-width: 1600px) {
+    /* header */
+    ul#menu-menu-2{
+        padding:135px 0 0 45% !important;
+    }
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1400px) {
+    /* header */
+    ul#menu-menu-2{
+        padding:135px 0 0 40% !important;
+    }
+}
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+
+    /* header */
+    ul#menu-menu-2{
+        padding:135px 0 0 20% !important;
+    }
+
+
+}
+
+
+
+/* //////// */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+    #menu-menu-2 > li > a {
+        font-size:25px;
+    }
+    .fn-mobile-dropdown-content  > li > a {
+        font-size:25px;
+    }
+
+    .fn-arrow-down:before, .fn-arrow-up:before {
+        margin-left: -35px !important;
+    }
+
+    .navbar-brand > img {
+        position: absolute;
+        top: 50px !important ;
+        left: 70px !important ;
+    }
+
+
+    .fn-primary-nav-trigger {
+        top: 50px !important;
+        width: 80px !important;
+    }
+
+    /* header */
+    ul#menu-menu-2{
+        padding:135px 0 0 0 !important;
+    }
+    #fn-mobile-dropdown-content-319 > li > a{
+        font-size:12px !important;
+    }
+    #fn-mobile-dropdown-content-319{
+        width:350px !important;
+        margin-bottom:0 !important;
+    }
+    #menu-menu-2 > li > a{
+        font-size:18px !important;
+    }
+    /* header end */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+}
+
+
+
+
+/* //////// */
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* /////////// */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* ///////// */
+
+@media screen and (orientation:portrait){
+    /* FancyBox */
+    .fancybox-thumbs {
+        top: auto;
+        width: auto;
+        bottom: 0;
+        left: 0;
+        right : 0;
+        height: 95px;
+        padding: 10px 10px 5px 10px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .fancybox-thumbs>ul{
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .fancybox-thumbs>ul>li{
+        float: none;
+        display: inline-block;
+    }
+
+    .fancybox-show-thumbs .fancybox-inner {
+        right: 0;
+        bottom: 95px;
+    }
+}
+
+@media (min-width:450px) and (min-height:500px) and (max-height:600px) {
+    .absolute-content {
+        top: 5% !important;
+        left: 10% !important;
+    }
+    p.display-3.text-light{
+        font-size:3rem;
+    }
+}
+
+
+@media only screen and (max-width: 1920px) and (max-height: 500px) {
+    .keep-it-essential{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 9999999999999;
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+        text-align: center;
+        background-color: #fff;
+
+    }
+    .keep-it-essential > h1 {
+        max-width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 1920px) and (max-height: 560px) {
+
+
+}
